@@ -1,0 +1,92 @@
+body {
+background-color: #121214;    
+}
+
+
+.titulo-1 {  
+display: flex;     
+padding: 20px; 
+justify-content: center;   
+}
+
+.titulo-2 {
+font-weight: bold;   
+padding: 50px;
+text-align: center;
+color: white;
+font-size: 35px;   
+}
+
+.perfis {       
+width: 700px;
+margin: 0 auto;
+text-align: center;
+margin-top: 80px;
+}
+
+.container-img {
+width: 160px;   
+color: white;    
+border: transparent;    
+display: flex;
+justify-content: space-between
+}
+.img-1 .img-2 .img-3 {
+ width: 160px;   
+}
+
+
+
+
+.perfis .container-img li img {            
+border: solid 3px transparent;
+border-radius: 10px;
+}
+
+.container-img .container {    
+border: 3px solid transparent;    
+}
+
+
+.container-img .container:hover {
+border: 3px solid white;    
+}
+
+
+.container-perfil {
+border: 3px solid transparent;  
+display: flex;
+justify-content: center;
+align-items: center;     
+border-radius: 10px;   
+background-color: #1E1E20;
+height: 160px;    
+width: 160px;    
+}
+
+.container-perfil:hover {
+border: solid white 3px;    
+}
+
+nav {
+display: flex;
+justify-content: center;
+margin-top: 100px;    
+}
+
+
+button {
+font-weight: bold;
+width: 180px;
+color: white;
+background-color: #1E1E20;
+border: white solid 2px;
+padding: 15px;
+border-radius: 10px;
+} 
+
+
+button:hover {
+background-color: white;
+color: black;    
+}
